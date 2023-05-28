@@ -92,7 +92,7 @@ resource "aws_iam_role_policy_attachment" "tf-build-attachment-2" {
 
 #-------------------------s3--------------------------------
 resource "aws_s3_bucket" "codepipeline_artifacts" {
-  bucket = "c0d3pipeline-artfacts-F"
+  bucket = "c0d3pipeline-artfacts-b"
 }
 #------------------------pipe--------------------------------
 
